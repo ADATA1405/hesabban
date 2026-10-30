@@ -1,15 +1,66 @@
 {
-  "name": "حساب بان - حسابداری شخصی",
-  "short_name": "حساب بان",
+  "id": "/",
+  "name": "حساببان - حسابداری شخصی",
+  "short_name": "حساببان",
+  "description": "حساب‌بان؛ مدیریت مالی شخصی، بودجه، تراکنش، اقساط و سرمایه‌گذاری",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
+  "orientation": "portrait",
   "dir": "rtl",
   "lang": "fa",
   "background_color": "#f3f4f6",
   "theme_color": "#2563eb",
+  "categories": ["finance", "productivity"],
   "icons": [
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/1-transactions.png",
+      "sizes": "945x2048",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "ثبت تراکنش"
+    },
+    {
+      "src": "screenshots/2-donut-chart.png",
+      "sizes": "945x2048",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "نمودار دایره‌ای"
+    },
+    {
+      "src": "screenshots/3-khoms.png",
+      "sizes": "945x2048",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "محاسبه خمس"
+    },
+    {
+      "src": "screenshots/4-budgeting.png",
+      "sizes": "945x2048",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "بودجه‌بندی"
+    },
+    {
+      "src": "screenshots/5-backup.png",
+      "sizes": "945x2048",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "پشتیبان‌گیری"
+    }
   ]
 }
